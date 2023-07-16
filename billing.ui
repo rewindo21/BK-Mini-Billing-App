@@ -1,0 +1,1959 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>939</width>
+    <height>585</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>939</width>
+    <height>585</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="main_tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>-8</x>
+      <y>-30</y>
+      <width>951</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="acceptDrops">
+     <bool>true</bool>
+    </property>
+    <property name="toolTipDuration">
+     <number>-1</number>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <property name="elideMode">
+     <enum>Qt::ElideRight</enum>
+    </property>
+    <property name="usesScrollButtons">
+     <bool>false</bool>
+    </property>
+    <property name="tabsClosable">
+     <bool>false</bool>
+    </property>
+    <property name="movable">
+     <bool>false</bool>
+    </property>
+    <property name="tabBarAutoHide">
+     <bool>false</bool>
+    </property>
+    <widget class="QWidget" name="tab_0">
+     <attribute name="title">
+      <string>LoginTab</string>
+     </attribute>
+     <widget class="QLineEdit" name="username_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>340</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>181</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 8px;</string>
+      </property>
+      <property name="placeholderText">
+       <string> USERNAME</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="login_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>420</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="acceptDrops">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+      <property name="autoExclusive">
+       <bool>false</bool>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="password_lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>380</y>
+        <width>181</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>181</width>
+        <height>31</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius: 8px;</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+      <property name="placeholderText">
+       <string> PASSWORD</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="error_label">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>450</y>
+        <width>191</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color: rgb(255, 69, 58);
+font: 14pt;
+</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="login_icon_label">
+      <property name="geometry">
+       <rect>
+        <x>330</x>
+        <y>130</y>
+        <width>211</width>
+        <height>191</height>
+       </rect>
+      </property>
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>231</width>
+        <height>211</height>
+       </size>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>images/user.png</pixmap>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_1">
+     <attribute name="title">
+      <string>MenuTab</string>
+     </attribute>
+     <widget class="QPushButton" name="logout_pushButton">
+      <property name="geometry">
+       <rect>
+        <x>790</x>
+        <y>510</y>
+        <width>100</width>
+        <height>32</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>100</width>
+        <height>32</height>
+       </size>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::NoFocus</enum>
+      </property>
+      <property name="text">
+       <string>Logout</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="bill_groupBox">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>30</y>
+        <width>451</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="bill_date_label">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>0</y>
+         <width>81</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>yyyy-mm-dd</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="bill_number_label">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>0</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>0</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Date:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>61</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Number:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>390</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Total:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>410</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Tax:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>430</y>
+         <width>71</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Grand total:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="bill_total_label">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>390</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="grand_total_label">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>430</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="bill_tax_label">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>410</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>15</x>
+         <y>30</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>117</x>
+         <y>30</y>
+         <width>41</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Price</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>30</y>
+         <width>51</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Quantity</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>30</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Total</string>
+       </property>
+      </widget>
+      <widget class="Line" name="line_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>46</y>
+         <width>421</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="Line" name="line_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>368</y>
+         <width>421</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="print_pushButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>390</y>
+         <width>100</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>Print</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="reset_pushButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>420</y>
+         <width>100</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="text">
+        <string>Reset</string>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="bill_tableWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>55</y>
+         <width>421</width>
+         <height>321</height>
+        </rect>
+       </property>
+       <property name="horizontalScrollBarPolicy">
+        <enum>Qt::ScrollBarAlwaysOff</enum>
+       </property>
+      </widget>
+      <zorder>bill_tableWidget</zorder>
+      <zorder>bill_date_label</zorder>
+      <zorder>label_4</zorder>
+      <zorder>bill_number_label</zorder>
+      <zorder>label_5</zorder>
+      <zorder>print_pushButton</zorder>
+      <zorder>reset_pushButton</zorder>
+      <zorder>label_6</zorder>
+      <zorder>label_7</zorder>
+      <zorder>label_8</zorder>
+      <zorder>bill_total_label</zorder>
+      <zorder>bill_tax_label</zorder>
+      <zorder>grand_total_label</zorder>
+      <zorder>line_3</zorder>
+      <zorder>label_12</zorder>
+      <zorder>label_13</zorder>
+      <zorder>label_14</zorder>
+      <zorder>label_15</zorder>
+      <zorder>line_2</zorder>
+     </widget>
+     <widget class="QTabWidget" name="foods_tabWidget">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>451</width>
+        <height>471</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>451</width>
+        <height>591</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <property name="documentMode">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="burgers_tab">
+       <attribute name="title">
+        <string>Burgers</string>
+       </attribute>
+       <widget class="QScrollArea" name="burgers_scrollArea">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>451</width>
+          <height>561</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>451</width>
+          <height>561</height>
+         </size>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_3">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>434</width>
+           <height>1024</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item>
+           <widget class="QFrame" name="burgers_frame">
+            <property name="minimumSize">
+             <size>
+              <width>410</width>
+              <height>1000</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(70, 70, 70);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_2">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_1.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_16">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>50</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$1.79</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_17">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>30</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Hamburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_1">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>21</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_18">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>150</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$1.99</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_3">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>100</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_2.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_19">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>100</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_20">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>129</y>
+               <width>101</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_21">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>250</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.99</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_22">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>200</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_23">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>200</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_24">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>229</y>
+               <width>151</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Double Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>220</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_38">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>349</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_40">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>300</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_41">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>300</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_45">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>329</y>
+               <width>151</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>320</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <zorder>label</zorder>
+            <zorder>label_2</zorder>
+            <zorder>label_16</zorder>
+            <zorder>label_17</zorder>
+            <zorder>burger_add_pushButton_1</zorder>
+            <zorder>label_19</zorder>
+            <zorder>label_20</zorder>
+            <zorder>burger_add_pushButton_2</zorder>
+            <zorder>label_3</zorder>
+            <zorder>label_18</zorder>
+            <zorder>label_23</zorder>
+            <zorder>label_24</zorder>
+            <zorder>burger_add_pushButton_3</zorder>
+            <zorder>label_22</zorder>
+            <zorder>label_21</zorder>
+            <zorder>label_40</zorder>
+            <zorder>label_41</zorder>
+            <zorder>label_45</zorder>
+            <zorder>burger_add_pushButton_4</zorder>
+            <zorder>label_38</zorder>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="sides_tab">
+       <attribute name="title">
+        <string>Sides</string>
+       </attribute>
+       <widget class="QScrollArea" name="sides_scrollArea">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>451</width>
+          <height>561</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>451</width>
+          <height>561</height>
+         </size>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_4">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>434</width>
+           <height>1024</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QFrame" name="sides_frame">
+            <property name="minimumSize">
+             <size>
+              <width>410</width>
+              <height>1000</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(70, 70, 70);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_25">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>149</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$3.09</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_26">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>100</y>
+               <width>91</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Side_2.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_27">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>100</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_28">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>228</y>
+               <width>161</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>4 Pc. Chicken Nuggets</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_29">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>200</y>
+               <width>91</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Side_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_30">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>128</y>
+               <width>91</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Onion Rings</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="side_add_pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>119</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_31">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>49</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$3.09</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_42">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>299</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="side_add_pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>219</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_32">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>91</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Side_1.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_39">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>348</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$1.49</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_33">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_34">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>200</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_43">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>309</y>
+               <width>91</width>
+               <height>71</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Side_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_46">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>328</y>
+               <width>121</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Mozzarella Sticks</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="side_add_pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>319</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_35">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>249</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$1.49</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_36">
+             <property name="geometry">
+              <rect>
+               <x>100</x>
+               <y>29</y>
+               <width>91</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Classic Fries</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="side_add_pushButton_1">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>20</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <zorder>label_27</zorder>
+            <zorder>label_30</zorder>
+            <zorder>side_add_pushButton_2</zorder>
+            <zorder>label_42</zorder>
+            <zorder>label_39</zorder>
+            <zorder>label_33</zorder>
+            <zorder>label_34</zorder>
+            <zorder>label_43</zorder>
+            <zorder>label_46</zorder>
+            <zorder>side_add_pushButton_4</zorder>
+            <zorder>label_35</zorder>
+            <zorder>label_36</zorder>
+            <zorder>side_add_pushButton_1</zorder>
+            <zorder>side_add_pushButton_3</zorder>
+            <zorder>label_28</zorder>
+            <zorder>label_29</zorder>
+            <zorder>label_25</zorder>
+            <zorder>label_26</zorder>
+            <zorder>label_32</zorder>
+            <zorder>label_31</zorder>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="drinks_tab">
+       <attribute name="title">
+        <string>Drinks</string>
+       </attribute>
+       <widget class="QScrollArea" name="drinks_scrollArea">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>0</y>
+          <width>451</width>
+          <height>561</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>451</width>
+          <height>561</height>
+         </size>
+        </property>
+        <property name="widgetResizable">
+         <bool>true</bool>
+        </property>
+        <widget class="QWidget" name="scrollAreaWidgetContents_5">
+         <property name="geometry">
+          <rect>
+           <x>0</x>
+           <y>0</y>
+           <width>434</width>
+           <height>1024</height>
+          </rect>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QFrame" name="drinks_frame">
+            <property name="minimumSize">
+             <size>
+              <width>410</width>
+              <height>1000</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(70, 70, 70);</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <widget class="QLabel" name="label_105">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>229</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Sprite</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_106">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>129</y>
+               <width>101</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Fanta Orange</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_107">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>150</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.29</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="drink_add_pushButton_4">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>320</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_108">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>250</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.29</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_109">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>200</y>
+               <width>81</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Drink_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_110">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>81</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Drink_1.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_111">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>50</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.29</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_112">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>349</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.19</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_113">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>0</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_114">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>100</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="drink_add_pushButton_3">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>220</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="drink_add_pushButton_2">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>120</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_115">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>30</y>
+               <width>81</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Coca-Cola</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_116">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>100</y>
+               <width>81</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Drink_2.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_117">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>329</y>
+               <width>101</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bottled Water</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_118">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>200</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="drink_add_pushButton_1">
+             <property name="geometry">
+              <rect>
+               <x>380</x>
+               <y>21</y>
+               <width>21</width>
+               <height>51</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_119">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>300</y>
+               <width>81</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Drink_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_120">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>300</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(255, 255, 255);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <zorder>label_113</zorder>
+            <zorder>label_114</zorder>
+            <zorder>drink_add_pushButton_2</zorder>
+            <zorder>label_115</zorder>
+            <zorder>label_116</zorder>
+            <zorder>label_118</zorder>
+            <zorder>drink_add_pushButton_1</zorder>
+            <zorder>label_120</zorder>
+            <zorder>label_111</zorder>
+            <zorder>label_110</zorder>
+            <zorder>label_106</zorder>
+            <zorder>label_107</zorder>
+            <zorder>drink_add_pushButton_3</zorder>
+            <zorder>label_105</zorder>
+            <zorder>label_108</zorder>
+            <zorder>label_109</zorder>
+            <zorder>label_117</zorder>
+            <zorder>label_112</zorder>
+            <zorder>label_119</zorder>
+            <zorder>drink_add_pushButton_4</zorder>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
