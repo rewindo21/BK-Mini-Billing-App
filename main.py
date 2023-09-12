@@ -7,7 +7,10 @@ import sys
 import sqlite3
 import datetime
 
-
+# try:
+#     ui, _ = loadUiType('billing.ui')
+# except Exception as e:
+#     print("Error loading UI file:", e)
 ui, _ = loadUiType('billing.ui')        # import ui file
 
 class MainApp(QMainWindow, ui):
@@ -24,6 +27,7 @@ class MainApp(QMainWindow, ui):
         self.logout_pushButton.clicked.connect(self.logout)
         self.print_pushButton.clicked.connect(self.print_items)
         self.reset_pushButton.clicked.connect(self.reset_table)
+        self.settings_pushButton.clicked.connnect(self.show_settings)
         # connect Products add button to add function
         self.burger_add_pushButton_1.clicked.connect(lambda: self.add(1))
         self.burger_add_pushButton_2.clicked.connect(lambda: self.add(2))
@@ -171,6 +175,8 @@ class MainApp(QMainWindow, ui):
 
 
 
+
+# pyside6-rcc resources.qrc -o resources_rc.py
 
 
 def main():
