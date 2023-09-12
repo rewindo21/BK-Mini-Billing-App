@@ -72,7 +72,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>2</number>
     </property>
     <property name="elideMode">
      <enum>Qt::ElideRight</enum>
@@ -814,9 +814,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>21</y>
+               <y>11</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -911,9 +911,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>120</y>
+               <y>110</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1008,9 +1008,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>220</y>
+               <y>210</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1105,9 +1105,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>320</y>
+               <y>310</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1318,9 +1318,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>119</y>
+               <y>109</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1374,9 +1374,9 @@ border-radius: 8px;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>219</y>
+               <y>209</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1511,9 +1511,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>319</y>
+               <y>309</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1568,9 +1568,9 @@ font: 16pt;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>20</y>
+               <y>10</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1727,9 +1727,9 @@ background-color: rgba(245,234,221,255);
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>320</y>
+               <y>310</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1881,9 +1881,9 @@ border-radius: 8px;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>220</y>
+               <y>210</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1902,9 +1902,9 @@ color:rgba(245,234,221,255);</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>120</y>
+               <y>110</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -1999,9 +1999,9 @@ border-radius: 8px;</string>
              <property name="geometry">
               <rect>
                <x>370</x>
-               <y>21</y>
+               <y>11</y>
                <width>31</width>
-               <height>51</height>
+               <height>71</height>
               </rect>
              </property>
              <property name="cursor">
@@ -2113,10 +2113,10 @@ border-radius: 8px;</string>
      <widget class="QPushButton" name="burger_add_pushButton_5">
       <property name="geometry">
        <rect>
-        <x>510</x>
-        <y>60</y>
+        <x>520</x>
+        <y>50</y>
         <width>51</width>
-        <height>91</height>
+        <height>101</height>
        </rect>
       </property>
       <property name="cursor">
@@ -2267,6 +2267,9 @@ padding-bottom: 7px;
         <width>211</width>
         <height>32</height>
        </rect>
+      </property>
+      <property name="cursor">
+       <cursorShape>PointingHandCursor</cursorShape>
       </property>
       <property name="styleSheet">
        <string notr="true">background-color: rgba(0, 0, 0, 0);

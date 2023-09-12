@@ -174,6 +174,7 @@ class MainApp(QMainWindow, ui):
 
     def show_settings(self):
         self.main_tabWidget.setCurrentIndex(2)
+        self.itemlist_comboBox.clear()
         # get data from database
         connector = sqlite3.connect("data.db")
         cursor = connector.execute("SELECT * FROM Products")
