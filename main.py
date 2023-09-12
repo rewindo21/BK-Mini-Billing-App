@@ -7,10 +7,6 @@ import sys
 import sqlite3
 import datetime
 
-# try:
-#     ui, _ = loadUiType('billing.ui')
-# except Exception as e:
-#     print("Error loading UI file:", e)
 ui, _ = loadUiType('billing.ui')        # import ui file
 
 class MainApp(QMainWindow, ui):
@@ -27,7 +23,9 @@ class MainApp(QMainWindow, ui):
         self.logout_pushButton.clicked.connect(self.logout)
         self.print_pushButton.clicked.connect(self.print_items)
         self.reset_pushButton.clicked.connect(self.reset_table)
-        self.settings_pushButton.clicked.connnect(self.show_settings)
+        self.settings_pushButton.clicked.connect(self.show_settings)
+        self.modify_pushButton.clicked.connect(self.update_values)
+        self.back_pushButton.clicked.connect(self.back2products)
         # connect Products add button to add function
         self.burger_add_pushButton_1.clicked.connect(lambda: self.add(1))
         self.burger_add_pushButton_2.clicked.connect(lambda: self.add(2))
@@ -41,7 +39,8 @@ class MainApp(QMainWindow, ui):
         self.drink_add_pushButton_2.clicked.connect(lambda: self.add(10))
         self.drink_add_pushButton_3.clicked.connect(lambda: self.add(11))
         self.drink_add_pushButton_4.clicked.connect(lambda: self.add(12))
-
+        # connect combobox to its function
+        self.itemlist_comboBox.currentIndexChanged.connect(self.show_values)
 
     def login(self):
         username = self.username_lineEdit.text()     # collect username
@@ -172,6 +171,65 @@ class MainApp(QMainWindow, ui):
             self.bill()         # generate new bill
             self.show_items()   # remove last items
 
+
+    def show_settings(self):
+        self.main_tabWidget.setCurrentIndex(2)
+        # get data from database
+        connector = sqlite3.connect("data.db")
+        cursor = connector.execute("SELECT * FROM Products")
+        result = cursor.fetchall()
+        if result:
+            for i in result:
+                self.itemlist_comboBox.addItem(str(i[0]))
+
+
+    # show item values in settings
+    def show_values(self):
+        # get data from database
+        connector = sqlite3.connect("data.db")
+        cursor = connector.execute("SELECT * FROM Products WHERE name = '"+ self.itemlist_comboBox.currentText()+"' ")
+        result = cursor.fetchall()
+        if result:
+            for i in result:
+                # show in fields
+                self.item_name_lineEdit.setText(str(i[0]))
+                self.item_price_lineEdit.setText(str(i[1]))
+                self.item_picture_lineEdit.setText(str(i[2]))
+                # show in sample label
+                self.configure_name_label.setText(str(i[0]))
+                self.configure_price_label.setText("$" + str(i[1]))
+                # add pictures path to pixmap of the label
+                filename = "./images/" + str(i[2])
+                image = QImage(filename)
+                pm = QPixmap.fromImage(image)
+                self.configure_picture_label.setPixmap(pm)
+        self.error_label_2.setText("")
+
+
+    # update item values in settings
+    def update_values(self):
+        connector = sqlite3.connect("data.db")
+        cursor = connector.execute( " UPDATE Products SET name = '"+ self.item_name_lineEdit.text() +"',"
+                                                        " price = '"+ self.item_price_lineEdit.text() +"', "
+                                                        " image_name = '"+ self.item_picture_lineEdit.text() +"' "
+                                                        " WHERE name = '"+ self.itemlist_comboBox.currentText()+"' ")
+        connector.commit()
+        connector.close()
+        # show in sample label
+        self.configure_name_label.setText(self.item_name_lineEdit.text())
+        self.configure_price_label.setText("$" + self.item_price_lineEdit.text())
+        # add pictures path to pixmap of the label
+        filename = "./images/" + self.item_picture_lineEdit.text()
+        image = QImage(filename)
+        pm = QPixmap.fromImage(image)
+        self.configure_picture_label.setPixmap(pm)
+        # get the items again on the second page and raise a message at the end
+        self.get()
+        self.error_label_2.setText("Item updated successfully")
+
+
+    def back2products(self):
+        self.main_tabWidget.setCurrentIndex(1)
 
 
 
