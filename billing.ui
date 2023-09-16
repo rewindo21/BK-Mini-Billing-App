@@ -72,7 +72,7 @@
      <enum>QTabWidget::Rounded</enum>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <property name="elideMode">
      <enum>Qt::ElideRight</enum>
@@ -663,7 +663,7 @@ color:  rgba(80,34,20,255);
       <zorder>label_15</zorder>
       <zorder>line_2</zorder>
      </widget>
-     <widget class="QTabWidget" name="foods_tabWidget">
+     <widget class="QTabWidget" name="PRODUCTNAME_9">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -715,7 +715,7 @@ QTabBar::tab:selected {
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>2</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideRight</enum>
@@ -812,7 +812,7 @@ border: 0px;
               <string/>
              </property>
             </widget>
-            <widget class="QLabel" name="label_2">
+            <widget class="QLabel" name="PRODUCT_IMAGE_1">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -835,7 +835,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_16">
+            <widget class="QLabel" name="PRODUCT_PRICE_1">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -853,7 +853,7 @@ background-color: rgba(245,234,221,255);
               <string>$1.79</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_17">
+            <widget class="QLabel" name="PRODUCT_NAME_1">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -892,7 +892,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_18">
+            <widget class="QLabel" name="PRODUCT_PRICE_2">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -910,7 +910,7 @@ background-color: rgba(245,234,221,255);
               <string>$1.99</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_3">
+            <widget class="QLabel" name="PRODUCT_IMAGE_2">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -950,7 +950,7 @@ border-radius: 8px;</string>
               <string/>
              </property>
             </widget>
-            <widget class="QLabel" name="label_20">
+            <widget class="QLabel" name="PRODUCT_NAME_2">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -989,7 +989,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_21">
+            <widget class="QLabel" name="PRODUCT_PRICE_3">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -1007,7 +1007,7 @@ background-color: rgba(245,234,221,255);
               <string>$2.99</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_22">
+            <widget class="QLabel" name="PRODUCT_IMAGE_3">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -1047,7 +1047,7 @@ border-radius: 8px;</string>
               <string/>
              </property>
             </widget>
-            <widget class="QLabel" name="label_24">
+            <widget class="QLabel" name="PRODUCT_NAME_3">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -1086,7 +1086,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_38">
+            <widget class="QLabel" name="PRODUCT_PRICE_4">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -1121,7 +1121,7 @@ background-color: rgba(245,234,221,255);
               <string/>
              </property>
             </widget>
-            <widget class="QLabel" name="label_41">
+            <widget class="QLabel" name="PRODUCT_IMAGE_4">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -1144,7 +1144,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_45">
+            <widget class="QLabel" name="PRODUCT_NAME_4">
              <property name="geometry">
               <rect>
                <x>140</x>
@@ -1184,25 +1184,25 @@ border: 0px;</string>
              </property>
             </widget>
             <zorder>label</zorder>
-            <zorder>label_2</zorder>
-            <zorder>label_16</zorder>
-            <zorder>label_17</zorder>
+            <zorder>PRODUCT_IMAGE_1</zorder>
+            <zorder>PRODUCT_PRICE_1</zorder>
+            <zorder>PRODUCT_NAME_1</zorder>
             <zorder>burger_add_pushButton_1</zorder>
             <zorder>label_19</zorder>
-            <zorder>label_20</zorder>
+            <zorder>PRODUCT_NAME_2</zorder>
             <zorder>burger_add_pushButton_2</zorder>
-            <zorder>label_3</zorder>
-            <zorder>label_18</zorder>
+            <zorder>PRODUCT_IMAGE_2</zorder>
+            <zorder>PRODUCT_PRICE_2</zorder>
             <zorder>label_23</zorder>
-            <zorder>label_24</zorder>
+            <zorder>PRODUCT_NAME_3</zorder>
             <zorder>burger_add_pushButton_3</zorder>
-            <zorder>label_22</zorder>
-            <zorder>label_21</zorder>
+            <zorder>PRODUCT_IMAGE_3</zorder>
+            <zorder>PRODUCT_PRICE_3</zorder>
             <zorder>label_40</zorder>
-            <zorder>label_41</zorder>
-            <zorder>label_45</zorder>
+            <zorder>PRODUCT_IMAGE_4</zorder>
+            <zorder>PRODUCT_NAME_4</zorder>
             <zorder>burger_add_pushButton_4</zorder>
-            <zorder>label_38</zorder>
+            <zorder>PRODUCT_PRICE_4</zorder>
            </widget>
           </item>
          </layout>
@@ -1272,7 +1272,7 @@ border: 0px;}</string>
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <widget class="QLabel" name="label_25">
+            <widget class="QLabel" name="PRODUCT_PRICE_6">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1290,7 +1290,7 @@ background-color: rgba(245,234,221,255);
               <string>$3.09</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_26">
+            <widget class="QLabel" name="PRODUCT_IMAGE_6">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -1330,7 +1330,7 @@ border-radius: 8px;</string>
               <string/>
              </property>
             </widget>
-            <widget class="QLabel" name="label_28">
+            <widget class="QLabel" name="PRODUCT_NAME_7">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1348,7 +1348,7 @@ font: 16pt;</string>
               <string>4 Pc. Chicken Nuggets</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_29">
+            <widget class="QLabel" name="PRODUCT_IMAGE_7">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -1371,7 +1371,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_30">
+            <widget class="QLabel" name="PRODUCT_NAME_6">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1410,7 +1410,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_31">
+            <widget class="QLabel" name="PRODUCT_PRICE_5">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1466,7 +1466,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_32">
+            <widget class="QLabel" name="PRODUCT_IMAGE_5">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -1489,7 +1489,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_39">
+            <widget class="QLabel" name="PRODUCT_PRICE_8">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1540,7 +1540,7 @@ background-color: rgba(245,234,221,255);
               <string/>
              </property>
             </widget>
-            <widget class="QLabel" name="label_43">
+            <widget class="QLabel" name="PRODUCT_IMAGE_8">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -1563,7 +1563,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_46">
+            <widget class="QLabel" name="PRODUCT_NAME_8">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1602,7 +1602,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_35">
+            <widget class="QLabel" name="PRODUCT_PRICE_7">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1620,7 +1620,7 @@ background-color: rgba(245,234,221,255);
               <string>$1.49</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_36">
+            <widget class="QLabel" name="PRODUCT_NAME_5">
              <property name="geometry">
               <rect>
                <x>110</x>
@@ -1660,25 +1660,25 @@ border: 0px;</string>
              </property>
             </widget>
             <zorder>label_27</zorder>
-            <zorder>label_30</zorder>
+            <zorder>PRODUCT_NAME_6</zorder>
             <zorder>side_add_pushButton_2</zorder>
             <zorder>label_42</zorder>
-            <zorder>label_39</zorder>
+            <zorder>PRODUCT_PRICE_8</zorder>
             <zorder>label_33</zorder>
             <zorder>label_34</zorder>
-            <zorder>label_43</zorder>
-            <zorder>label_46</zorder>
+            <zorder>PRODUCT_IMAGE_8</zorder>
+            <zorder>PRODUCT_NAME_8</zorder>
             <zorder>side_add_pushButton_4</zorder>
-            <zorder>label_35</zorder>
-            <zorder>label_36</zorder>
+            <zorder>PRODUCT_PRICE_7</zorder>
+            <zorder>PRODUCT_NAME_5</zorder>
             <zorder>side_add_pushButton_1</zorder>
             <zorder>side_add_pushButton_3</zorder>
-            <zorder>label_28</zorder>
-            <zorder>label_29</zorder>
-            <zorder>label_25</zorder>
-            <zorder>label_26</zorder>
-            <zorder>label_32</zorder>
-            <zorder>label_31</zorder>
+            <zorder>PRODUCT_NAME_7</zorder>
+            <zorder>PRODUCT_IMAGE_7</zorder>
+            <zorder>PRODUCT_PRICE_6</zorder>
+            <zorder>PRODUCT_IMAGE_6</zorder>
+            <zorder>PRODUCT_IMAGE_5</zorder>
+            <zorder>PRODUCT_PRICE_5</zorder>
            </widget>
           </item>
          </layout>
@@ -1749,7 +1749,7 @@ border: 0px;
             <property name="frameShadow">
              <enum>QFrame::Raised</enum>
             </property>
-            <widget class="QLabel" name="label_105">
+            <widget class="QLabel" name="PRODUCT_NAME_11">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -1767,7 +1767,7 @@ font: 16pt;</string>
               <string>Sprite</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_106">
+            <widget class="QLabel" name="PRODUCT_NAME_10">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -1785,7 +1785,7 @@ font: 16pt;</string>
               <string>Fanta Orange</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_107">
+            <widget class="QLabel" name="PRODUCT_PRICE_10">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -1824,7 +1824,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_108">
+            <widget class="QLabel" name="PRODUCT_PRICE_11">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -1841,7 +1841,7 @@ background-color: rgba(245,234,221,255);</string>
               <string>$2.29</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_109">
+            <widget class="QLabel" name="PRODUCT_IMAGE_11">
              <property name="geometry">
               <rect>
                <x>20</x>
@@ -1864,7 +1864,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_110">
+            <widget class="QLabel" name="PRODUCT_IMAGE_9">
              <property name="geometry">
               <rect>
                <x>20</x>
@@ -1887,7 +1887,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_111">
+            <widget class="QLabel" name="PRODUCT_PRICE_9">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -1905,7 +1905,7 @@ background-color: rgba(245,234,221,255);
               <string>$2.29</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_112">
+            <widget class="QLabel" name="PRODUCT_PRICE_12">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -1999,7 +1999,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_115">
+            <widget class="QLabel" name="PRODUCT_NAME_9">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -2017,7 +2017,7 @@ font: 16pt;</string>
               <string>Coca-Cola</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_116">
+            <widget class="QLabel" name="PRODUCT_IMAGE_10">
              <property name="geometry">
               <rect>
                <x>20</x>
@@ -2040,7 +2040,7 @@ border-radius: 8px;</string>
               <bool>true</bool>
              </property>
             </widget>
-            <widget class="QLabel" name="label_117">
+            <widget class="QLabel" name="PRODUCT_NAME_12">
              <property name="geometry">
               <rect>
                <x>100</x>
@@ -2096,7 +2096,7 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
-            <widget class="QLabel" name="label_119">
+            <widget class="QLabel" name="PRODUCT_IMAGE_12">
              <property name="geometry">
               <rect>
                <x>10</x>
@@ -2139,22 +2139,22 @@ border-radius: 8px;</string>
             <zorder>label_113</zorder>
             <zorder>label_114</zorder>
             <zorder>drink_add_pushButton_2</zorder>
-            <zorder>label_115</zorder>
-            <zorder>label_116</zorder>
+            <zorder>PRODUCT_NAME_9</zorder>
+            <zorder>PRODUCT_IMAGE_10</zorder>
             <zorder>label_118</zorder>
             <zorder>drink_add_pushButton_1</zorder>
             <zorder>label_120</zorder>
-            <zorder>label_111</zorder>
-            <zorder>label_110</zorder>
-            <zorder>label_106</zorder>
-            <zorder>label_107</zorder>
+            <zorder>PRODUCT_PRICE_9</zorder>
+            <zorder>PRODUCT_IMAGE_9</zorder>
+            <zorder>PRODUCT_NAME_10</zorder>
+            <zorder>PRODUCT_PRICE_10</zorder>
             <zorder>drink_add_pushButton_3</zorder>
-            <zorder>label_105</zorder>
-            <zorder>label_108</zorder>
-            <zorder>label_109</zorder>
-            <zorder>label_117</zorder>
-            <zorder>label_112</zorder>
-            <zorder>label_119</zorder>
+            <zorder>PRODUCT_NAME_11</zorder>
+            <zorder>PRODUCT_PRICE_11</zorder>
+            <zorder>PRODUCT_IMAGE_11</zorder>
+            <zorder>PRODUCT_NAME_12</zorder>
+            <zorder>PRODUCT_PRICE_12</zorder>
+            <zorder>PRODUCT_IMAGE_12</zorder>
             <zorder>drink_add_pushButton_4</zorder>
            </widget>
           </item>

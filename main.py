@@ -93,15 +93,29 @@ class MainApp(QMainWindow, ui):
         print(self.prices)
         print(self.images)
 
+        # # set item to its sample
+        # self.label_17.setText(self.names[1]) 
+        # self.label_16.setText("$" + self.prices[1])           
+        # filename = "./images/" + self.images[1]
+        # image = QImage(filename)
+        # pm = QPixmap.fromImage(image)
+        # self.label_2.setPixmap(pm)
+
         # set item to its sample
-        self.label_17.setText(self.names[1]) 
-        self.label_16.setText("$" + self.prices[1])           
-        filename = "./images/" + self.images[1]
-        image = QImage(filename)
-        pm = QPixmap.fromImage(image)
-        self.label_2.setPixmap(pm)
+        for i in range(1, 13): 
+            item_index = i 
 
+            food_name_label = getattr(self, f'PRODUCT_NAME_{i}')
+            food_name_label.setText(self.names[item_index])
 
+            food_price_label = getattr(self, f'PRODUCT_PRICE_{i}')
+            food_price_label.setText("$" + self.prices[item_index])
+
+            filename = "./images/" + self.images[item_index]
+            image = QImage(filename)
+            pm = QPixmap.fromImage(image)
+            food_image_label = getattr(self, f'PRODUCT_IMAGE_{i}')
+            food_image_label.setPixmap(pm)
 
 
     # add product to bill list
