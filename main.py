@@ -78,20 +78,33 @@ class MainApp(QMainWindow, ui):
 
     # get Products from database
     def get(self):
-        self.Products = ["0"]
+        self.names = ["NAMES: "]
         self.prices = [0]
+        self.images = ["IMAGES: "]
         connector = sqlite3.connect("data.db")
         cursor = connector.execute("SELECT * FROM Products")
         temp = cursor.fetchall()
         if temp:
             for i in temp:
-                self.Products.append(str(i[0]))
+                self.names.append(str(i[0]))
                 self.prices.append(str(i[1]))
-        # print(self.Products)
-        # print(self.prices)
+                self.images.append(str(i[2]))
+        print(self.names)
+        print(self.prices)
+        print(self.images)
+
+        # set item to its sample
+        self.label_17.setText(self.names[1]) 
+        self.label_16.setText("$" + self.prices[1])           
+        filename = "./images/" + self.images[1]
+        image = QImage(filename)
+        pm = QPixmap.fromImage(image)
+        self.label_2.setPixmap(pm)
 
 
-    # add item to database
+
+
+    # add product to bill list
     def add(self, id):
         billnumber = self.bill_number_label.text()
         itemname = self.Products[id]
@@ -113,7 +126,7 @@ class MainApp(QMainWindow, ui):
         self.show_items()
 
 
-    # show items in table
+    # show added items in table
     def show_items(self):
         # if there is anything in table, remove them
         self.bill_tableWidget.setRowCount(0)   
