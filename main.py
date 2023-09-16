@@ -107,7 +107,7 @@ class MainApp(QMainWindow, ui):
     # add product to bill list
     def add(self, id):
         billnumber = self.bill_number_label.text()
-        itemname = self.Products[id]
+        itemname = self.names[id]
         itemprice = self.prices[id]
         quantity = "1"
         connector = sqlite3.connect("data.db")
