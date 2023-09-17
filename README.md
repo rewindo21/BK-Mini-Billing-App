@@ -1,5 +1,5 @@
 # Drscription
-Billing Software with Python, PyQt5 & SQLite
+Billing App with PyQt5 & SQLite
 
 ## Pages
 - Login page includes username and password fields, login button, error message:
