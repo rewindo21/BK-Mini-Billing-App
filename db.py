@@ -68,14 +68,14 @@ cursor.execute("INSERT INTO Products VALUES"
 
 
 cursor.execute("INSERT INTO Products VALUES"
-                                "('HERSHEY'S Sundae Pie', 1.99, 'Sweets_1.png'),"
-                                "('Classic Oreo® Shake', 3.59, 'Sweets_2.png'),"
-                                "('Chocolate Oreo Shake', 3.59, 'Sweets_3.png'),"
-                                "('Chocolate Shake', 3.39, 'Sweets_4.png'),"
-                                "('Vanilla Shake', 3.39, 'Sweets_5.png'),"
-                                "('Soft Serve Cup', 1.00, 'Sweets_6.png')"
-                                "('Soft Serve Cone', 1.00, 'Sweets_7.png'),"
-                                "('2 Chocolate Chip Cookies', 1.00, 'Sweets_8.png')")
+                                "('HERSHEY'S Sundae Pie', 1.99, 'Sweet_1.png'),"
+                                "('Classic Oreo Shake', 3.59, 'Sweet_2.png'),"
+                                "('Chocolate Oreo Shake', 3.59, 'Sweet_3.png'),"
+                                "('Chocolate Shake', 3.39, 'Sweet_4.png'),"
+                                "('Vanilla Shake', 3.39, 'Sweet_5.png'),"
+                                "('Soft Serve Cup', 1.00, 'Sweet_6.png')"
+                                "('Soft Serve Cone', 1.00, 'Sweet_7.png'),"
+                                "('2 Chocolate Chip Cookies', 1.00, 'Sweet_8.png')")
 
 
 connector.commit()
