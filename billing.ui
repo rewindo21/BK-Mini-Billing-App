@@ -745,13 +745,13 @@ QTabBar::tab:selected {
           <x>0</x>
           <y>0</y>
           <width>451</width>
-          <height>561</height>
+          <height>428</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>451</width>
-          <height>561</height>
+          <height>0</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -1222,13 +1222,13 @@ border: 0px;</string>
           <x>0</x>
           <y>0</y>
           <width>451</width>
-          <height>561</height>
+          <height>428</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>451</width>
-          <height>561</height>
+          <height>0</height>
          </size>
         </property>
         <property name="styleSheet">
@@ -1698,13 +1698,13 @@ border: 0px;</string>
           <x>0</x>
           <y>0</y>
           <width>451</width>
-          <height>561</height>
+          <height>427</height>
          </rect>
         </property>
         <property name="minimumSize">
          <size>
           <width>451</width>
-          <height>561</height>
+          <height>0</height>
          </size>
         </property>
         <property name="styleSheet">
