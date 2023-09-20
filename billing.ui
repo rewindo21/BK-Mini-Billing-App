@@ -715,7 +715,7 @@ QTabBar::tab:selected {
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>2</number>
+       <number>0</number>
       </property>
       <property name="elideMode">
        <enum>Qt::ElideRight</enum>
@@ -769,7 +769,7 @@ border: 0px;
            <x>0</x>
            <y>0</y>
            <width>436</width>
-           <height>1024</height>
+           <height>1624</height>
           </rect>
          </property>
          <property name="styleSheet">
@@ -781,7 +781,7 @@ border: 0px;
             <property name="minimumSize">
              <size>
               <width>410</width>
-              <height>1000</height>
+              <height>1600</height>
              </size>
             </property>
             <property name="styleSheet">
@@ -1183,6 +1183,1174 @@ border: 0px;</string>
               <string>&gt;</string>
              </property>
             </widget>
+            <widget class="QLabel" name="label_24">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>400</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_41">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>500</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_5">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>400</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_13">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>450</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.99</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_14">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>400</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_14">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>425</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Double Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_6">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>500</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_15">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>525</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_16">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>500</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_16">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>549</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_25">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>600</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_43">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>700</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_9">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>600</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_17">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>650</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.99</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_18">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>600</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_18">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>625</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Double Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_10">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>700</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_19">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>725</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_20">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>700</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_20">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>749</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_16">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>826</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_17">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>801</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_19">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>901</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_44">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>801</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_7">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>801</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_11">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>1001</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_26">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>901</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_18">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>850</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_20">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>926</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Double Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_12">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>901</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_45">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>1001</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_19">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>951</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.99</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_21">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1026</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_21">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>1001</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_21">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1050</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_46">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>1200</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_22">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1249</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_23">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1449</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_13">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>1300</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_14">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>1400</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_15">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>1099</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_47">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>1400</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_22">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1425</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_28">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>1300</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_22">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>1300</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_3.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_8">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>1200</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_23">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>1200</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_17">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1225</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_48">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>1099</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_23">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1124</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_24">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>1400</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_25">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>1099</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_24">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1148</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_24">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1325</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Double Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_25">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1350</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.99</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_NAME_25">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1526</y>
+               <width>151</width>
+               <height>20</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+font: 16pt;</string>
+             </property>
+             <property name="text">
+              <string>Bacon Cheeseburger</string>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="burger_add_pushButton_16">
+             <property name="geometry">
+              <rect>
+               <x>370</x>
+               <y>1501</y>
+               <width>41</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="cursor">
+              <cursorShape>PointingHandCursor</cursorShape>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(235,0,0,255);
+color:rgba(245,234,221,255);
+border: 0px;</string>
+             </property>
+             <property name="text">
+              <string>&gt;</string>
+             </property>
+            </widget>
+            <widget class="QLabel" name="label_49">
+             <property name="geometry">
+              <rect>
+               <x>0</x>
+               <y>1501</y>
+               <width>411</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_IMAGE_26">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>1501</y>
+               <width>121</width>
+               <height>91</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color: rgb(0, 0, 0);
+border-radius: 8px;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="pixmap">
+              <pixmap>images/Burger_4.png</pixmap>
+             </property>
+             <property name="scaledContents">
+              <bool>true</bool>
+             </property>
+            </widget>
+            <widget class="QLabel" name="PRODUCT_PRICE_26">
+             <property name="geometry">
+              <rect>
+               <x>140</x>
+               <y>1550</y>
+               <width>58</width>
+               <height>16</height>
+              </rect>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">color: rgb(0, 0, 0);
+background-color: rgba(245,234,221,255);
+</string>
+             </property>
+             <property name="text">
+              <string>$2.39</string>
+             </property>
+            </widget>
+            <zorder>label_49</zorder>
+            <zorder>label_47</zorder>
+            <zorder>label_28</zorder>
+            <zorder>label_48</zorder>
             <zorder>label</zorder>
             <zorder>PRODUCT_IMAGE_1</zorder>
             <zorder>PRODUCT_PRICE_1</zorder>
@@ -1203,6 +2371,62 @@ border: 0px;</string>
             <zorder>PRODUCT_NAME_4</zorder>
             <zorder>burger_add_pushButton_4</zorder>
             <zorder>PRODUCT_PRICE_4</zorder>
+            <zorder>label_24</zorder>
+            <zorder>label_41</zorder>
+            <zorder>burger_add_pushButton_5</zorder>
+            <zorder>PRODUCT_PRICE_13</zorder>
+            <zorder>PRODUCT_IMAGE_14</zorder>
+            <zorder>PRODUCT_NAME_14</zorder>
+            <zorder>burger_add_pushButton_6</zorder>
+            <zorder>PRODUCT_NAME_15</zorder>
+            <zorder>PRODUCT_IMAGE_16</zorder>
+            <zorder>PRODUCT_PRICE_16</zorder>
+            <zorder>label_25</zorder>
+            <zorder>label_43</zorder>
+            <zorder>burger_add_pushButton_9</zorder>
+            <zorder>PRODUCT_PRICE_17</zorder>
+            <zorder>PRODUCT_IMAGE_18</zorder>
+            <zorder>PRODUCT_NAME_18</zorder>
+            <zorder>burger_add_pushButton_10</zorder>
+            <zorder>PRODUCT_NAME_19</zorder>
+            <zorder>PRODUCT_IMAGE_20</zorder>
+            <zorder>PRODUCT_PRICE_20</zorder>
+            <zorder>label_44</zorder>
+            <zorder>burger_add_pushButton_7</zorder>
+            <zorder>label_26</zorder>
+            <zorder>PRODUCT_PRICE_18</zorder>
+            <zorder>PRODUCT_NAME_20</zorder>
+            <zorder>burger_add_pushButton_12</zorder>
+            <zorder>label_45</zorder>
+            <zorder>PRODUCT_PRICE_19</zorder>
+            <zorder>PRODUCT_NAME_21</zorder>
+            <zorder>PRODUCT_IMAGE_21</zorder>
+            <zorder>PRODUCT_PRICE_21</zorder>
+            <zorder>PRODUCT_IMAGE_19</zorder>
+            <zorder>PRODUCT_IMAGE_17</zorder>
+            <zorder>PRODUCT_NAME_16</zorder>
+            <zorder>burger_add_pushButton_11</zorder>
+            <zorder>label_46</zorder>
+            <zorder>PRODUCT_PRICE_22</zorder>
+            <zorder>PRODUCT_PRICE_23</zorder>
+            <zorder>burger_add_pushButton_13</zorder>
+            <zorder>burger_add_pushButton_14</zorder>
+            <zorder>burger_add_pushButton_15</zorder>
+            <zorder>PRODUCT_NAME_22</zorder>
+            <zorder>PRODUCT_IMAGE_22</zorder>
+            <zorder>burger_add_pushButton_8</zorder>
+            <zorder>PRODUCT_IMAGE_23</zorder>
+            <zorder>PRODUCT_NAME_17</zorder>
+            <zorder>PRODUCT_NAME_23</zorder>
+            <zorder>PRODUCT_IMAGE_24</zorder>
+            <zorder>PRODUCT_IMAGE_25</zorder>
+            <zorder>PRODUCT_PRICE_24</zorder>
+            <zorder>PRODUCT_NAME_24</zorder>
+            <zorder>PRODUCT_PRICE_25</zorder>
+            <zorder>PRODUCT_NAME_25</zorder>
+            <zorder>burger_add_pushButton_16</zorder>
+            <zorder>PRODUCT_IMAGE_26</zorder>
+            <zorder>PRODUCT_PRICE_26</zorder>
            </widget>
           </item>
          </layout>
@@ -1720,7 +2944,7 @@ border: 0px;
          <property name="geometry">
           <rect>
            <x>0</x>
-           <y>0</y>
+           <y>-597</y>
            <width>436</width>
            <height>1024</height>
           </rect>
