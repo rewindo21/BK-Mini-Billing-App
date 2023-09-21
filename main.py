@@ -31,14 +31,14 @@ class MainApp(QMainWindow, ui):
         self.burger_add_pushButton_2.clicked.connect(lambda: self.add(2))
         self.burger_add_pushButton_3.clicked.connect(lambda: self.add(3))
         self.burger_add_pushButton_4.clicked.connect(lambda: self.add(4))
-        self.side_add_pushButton_1.clicked.connect(lambda: self.add(5))
-        self.side_add_pushButton_2.clicked.connect(lambda: self.add(6))
-        self.side_add_pushButton_3.clicked.connect(lambda: self.add(7))
-        self.side_add_pushButton_4.clicked.connect(lambda: self.add(8))
-        self.drink_add_pushButton_1.clicked.connect(lambda: self.add(9))
-        self.drink_add_pushButton_2.clicked.connect(lambda: self.add(10))
-        self.drink_add_pushButton_3.clicked.connect(lambda: self.add(11))
-        self.drink_add_pushButton_4.clicked.connect(lambda: self.add(12))
+        # self.side_add_pushButton_1.clicked.connect(lambda: self.add(5))
+        # self.side_add_pushButton_2.clicked.connect(lambda: self.add(6))
+        # self.side_add_pushButton_3.clicked.connect(lambda: self.add(7))
+        # self.side_add_pushButton_4.clicked.connect(lambda: self.add(8))
+        # self.drink_add_pushButton_1.clicked.connect(lambda: self.add(9))
+        # self.drink_add_pushButton_2.clicked.connect(lambda: self.add(10))
+        # self.drink_add_pushButton_3.clicked.connect(lambda: self.add(11))
+        # self.drink_add_pushButton_4.clicked.connect(lambda: self.add(12))
         # connect combobox to its function
         self.itemlist_comboBox.currentIndexChanged.connect(self.show_values)
 
@@ -93,16 +93,8 @@ class MainApp(QMainWindow, ui):
         print(self.prices)
         print(self.images)
 
-        # # set item to its sample
-        # self.label_17.setText(self.names[1]) 
-        # self.label_16.setText("$" + self.prices[1])           
-        # filename = "./images/" + self.images[1]
-        # image = QImage(filename)
-        # pm = QPixmap.fromImage(image)
-        # self.label_2.setPixmap(pm)
-
         # set item to its sample
-        for i in range(1, 13): 
+        for i in range(1, 27): 
             item_index = i 
 
             food_name_label = getattr(self, f'PRODUCT_NAME_{i}')
@@ -111,7 +103,7 @@ class MainApp(QMainWindow, ui):
             food_price_label = getattr(self, f'PRODUCT_PRICE_{i}')
             food_price_label.setText("$" + self.prices[item_index])
 
-            filename = "./images/" + self.images[item_index]
+            filename = "./images/products/" + self.images[item_index]
             image = QImage(filename)
             pm = QPixmap.fromImage(image)
             food_image_label = getattr(self, f'PRODUCT_IMAGE_{i}')
@@ -227,7 +219,7 @@ class MainApp(QMainWindow, ui):
                 self.configure_name_label.setText(str(i[0]))
                 self.configure_price_label.setText("$" + str(i[1]))
                 # add pictures path to pixmap of the label
-                filename = "./images/" + str(i[2])
+                filename = "./images/products/" + str(i[2])
                 image = QImage(filename)
                 pm = QPixmap.fromImage(image)
                 self.configure_picture_label.setPixmap(pm)
@@ -247,7 +239,7 @@ class MainApp(QMainWindow, ui):
         self.configure_name_label.setText(self.item_name_lineEdit.text())
         self.configure_price_label.setText("$" + self.item_price_lineEdit.text())
         # add pictures path to pixmap of the label
-        filename = "./images/" + self.item_picture_lineEdit.text()
+        filename = "./images/products/" + self.item_picture_lineEdit.text()
         image = QImage(filename)
         pm = QPixmap.fromImage(image)
         self.configure_picture_label.setPixmap(pm)
